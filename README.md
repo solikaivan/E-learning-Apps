@@ -40,21 +40,3 @@ Run the application:
 sh
 Copy code
 flutter run
-Project Structure
-bash
-Copy code
-e-learning-app/
-│
-├── android/                 # Android-specific files
-├── ios/                     # iOS-specific files
-├── lib/                     # Flutter application code
-│   ├── models/              # Data models
-│   ├── providers/           # State management
-│   ├── screens/             # UI screens
-│   ├── services/            # Backend services
-│   ├── widgets/             # Reusable UI components
-│   ├── main.dart            # Main entry point of the application
-│
-├── test/                    # Unit and widget tests
-├── pubspec.yaml             # Project dependencies and metadata
-└── README.md                # This README file
